@@ -16,7 +16,7 @@ app.use('/', userRoutes)
 
 // Mongo Connections
 mongoose
-  .connect("mongodb+srv://nahasbinasker:6238266413@cluster0.0ei2kyz.mongodb.net/eCommerce?retryWrites=true&w=majority", {
+  .connect(process.env.MONGODB_URL, {
     useNewUrlParser: true,
   })
   .then(() => console.log("DB Connected"))
