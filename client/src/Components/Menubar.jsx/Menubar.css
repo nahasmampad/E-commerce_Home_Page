@@ -1,0 +1,29 @@
+.Menubar{
+    display: flex;
+    padding: 0 100px;
+    font-size: 14px;
+    color: #4D4D4D;
+    ;
+    gap: 50px;
+}
+
+.menubar_allCate{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.menubar_allCate img{
+    width: 14px;
+}
+
+.menubar_menu_items{
+    display: flex;
+    gap: 30px;
+
+}
+
+.menubar_menu_items span{
+    cursor: pointer;
+}

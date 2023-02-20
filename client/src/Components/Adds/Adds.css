@@ -1,0 +1,87 @@
+.Adds {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+  padding: 10px 100px;
+}
+
+.AddsCard {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-between;
+
+  background-color: aqua;
+  overflow: hidden;
+  border-radius: 22px;
+  position: relative;
+  height: 348px;
+}
+
+.Add_banner_img {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.add_caption {
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  margin-top: 62px;
+  margin-left: 57px;
+}
+.add_caption span{
+    font-size: 50px;
+    color: #fff;
+    line-height: 60px;
+
+}
+
+.add_caption span:nth-child(1){
+   font-weight: 200;
+   
+}
+.add_caption span:nth-child(2){
+    font-weight: 600;
+    
+ }
+
+ .Add_dis{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    margin-left: 62px;
+    margin-bottom: 30px;
+    
+ }
+
+ .Add_dis span{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 100;
+    width: 70%;
+
+ }
+
+ .adds_circle_arrow{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+
+
+ }
+
+ .adds_circle_arrow img{
+    rotate: -90deg;
+    filter: brightness(0) invert(100%);
+ }

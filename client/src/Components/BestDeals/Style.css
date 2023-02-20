@@ -1,0 +1,32 @@
+.BestDeals{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    gap: 20px;
+}
+
+.BD_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.BD_title span:nth-child(1){
+    color: var(--color-primary);
+    font-weight:900;
+    font-size: x-large;
+}
+
+.BD_title span:nth-child(2){
+    color: var(--blue-color);
+    font-weight:bold;
+    font-size:16px;
+}
+
+.BD_product_card{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    row-gap:20px;
+}
+

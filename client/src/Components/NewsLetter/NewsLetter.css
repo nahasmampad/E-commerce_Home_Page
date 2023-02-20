@@ -1,0 +1,77 @@
+.NewsLetter {
+  background: var(--blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+  height: 250px;
+}
+
+.NewsLetter_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.NewsLetter_left img {
+  width: 90px;
+}
+.NL_left_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.NL_left_text span:nth-child(1) {
+  font-weight: 900;
+  color: #fff;
+  font-size: 25px;
+}
+
+.NL_left_text span:nth-child(2) {
+  font-weight: normal;
+  color: #fff;
+  font-size: small;
+  width: 60%;
+}
+
+.NewsLetter_right {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+}
+
+.NL_input_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.NL_input_container input {
+  border: none;
+  outline: none;
+  padding: 28px;
+  background: transparent;
+  width: 70%;
+}
+
+.subscribe_btn {
+  border: none;
+  background: #4d4d4d;
+  border-radius: 12px;
+  color: #fff;
+  padding: 19px 37px;
+  cursor: pointer;
+}
+
+.NL_input_container input::placeholder {
+  font-size: medium;
+  color: gray;
+}

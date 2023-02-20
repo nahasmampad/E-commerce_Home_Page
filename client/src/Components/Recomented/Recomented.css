@@ -1,0 +1,106 @@
+.Recomented {
+  margin-top: 20px;
+  padding: 0 100px;
+}
+
+.Rec_ProCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  width: 200px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+ 
+  box-shadow: 0px 9px 26px rgba(0, 0, 0, 0.06);
+}
+
+.Rec_ProCard_imageContainer {
+  position: relative;
+  width: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+
+  height: 150px;
+}
+
+.Rec_ProCard_imageContainer img {
+  width: 200px;
+  object-fit: cover;
+}
+
+.Rec_pro_tag{
+    position: absolute;
+  background-color: var(--blue-color);
+  padding: 8px 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  right: 0;
+  top: 20px;
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Rec_pro_deatils{
+    display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 20px;
+}
+
+.Rec_pro_deatils span{
+    font-size: 10px;
+  width: 140px;
+}
+
+.Rec_price_det{
+    display: flex;
+    flex-direction: column;
+}
+
+.Rec_price_det span{
+    font-size: large;
+    font-weight: 600;
+    color: var(--blue-color);
+}
+
+.Rec_Rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Rec_off{
+    color: gray;
+    text-decoration: line-through
+}
+.Rec_rating span{
+    color: gray;
+    font-weight: normal;
+    font-size: small;
+    margin-right: 5px;
+}
+
+.Rec_rating img{
+    width: 12px;
+}
+
+.Rec_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Rec_card_continer{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 75vw;
+    overflow-x: scroll;
+}

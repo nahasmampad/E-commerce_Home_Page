@@ -1,0 +1,35 @@
+.RecentView{
+    padding: 30px 100px;
+}
+
+.ReView_title{
+    font-weight: 600;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ReView_arrow{
+    display: flex;
+    gap: 30px;
+}
+
+.ReView_arrow img:nth-child(1){
+    rotate: 90deg;
+    width: 15px;
+}
+
+.ReView_arrow img:nth-child(2){
+    rotate: -90deg;
+    width: 15px;
+}
+
+
+.Re_view_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}

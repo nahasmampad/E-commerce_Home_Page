@@ -1,0 +1,96 @@
+.HotSale{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+}
+
+.hotSale_title{
+    color: var(--color-primary);
+    font-weight: 900;
+    font-size: x-large;
+}
+.hotSale_continer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.hotSale_card{
+    display: flex;
+    gap: 30px;
+}
+
+/* Card */
+.HotSaleCard{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 9px 26px rgba(0, 0, 0, 0.06);
+    width: 205px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+    position: relative;
+}
+
+.blue{
+    background: var(--blue-color);
+}
+.HotSale_top{
+    display: flex;
+    flex-direction: column;
+}
+.HotSale_top span{
+    font-size: small;
+    font-weight: 500;
+}
+.HotSale_img_contsiner{
+    width: 100%;
+    height: 200px;
+    
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HotSale_img_contsiner img{
+width: 90%;
+}
+
+.HotSale_bottum{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.HotSale_bottum span{
+    font-weight: 600;
+    color: var(--blue-color);
+    font-size: larger;
+   
+}
+
+.HS_rating{
+    font-size: small !important;
+    color: gray !important;
+    font-weight: normal !important;
+}
+
+.btn_addCart{
+    border: 2px solid var(--blue-color);
+    border-radius: 10px;
+    padding: 10px 0;
+    background-color: transparent;
+    color: var(--blue-color);
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.btn_addCart:hover{
+    /* border: none; */
+    background: var(--blue-color);
+    color: #fff;
+}

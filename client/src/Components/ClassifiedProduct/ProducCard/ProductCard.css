@@ -1,0 +1,71 @@
+.Cla_ProCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  width: 270px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  
+}
+.Cla_ProCard_imageContainer {
+  position: relative;
+  width: 270px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  
+  height: 240px;
+}
+
+.Cla_ProCard_imageContainer img {
+  width: 270px;
+  object-fit: cover;
+}
+
+.pro_tag {
+  position: absolute;
+  background-color: var(--skyBlue-color);
+  padding: 8px 12px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  right: 0;
+  top: 30px;
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cla_pro_deatils {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 27px;
+}
+
+.Cla_pro_deatils span {
+  font-size: 12px;
+  width: 140px;
+}
+.Cla-pro_bottum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.Cla_pro_price {
+  font-weight: 600;
+  color: var(--skyBlue-color);
+}
+
+.Cla_pro_location img {
+  width: 8px;
+  filter: invert(50%);
+  margin-right: 5px;
+}
+
+.Cla_pro_location span {
+  color: gray;
+}
